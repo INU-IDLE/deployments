@@ -5,4 +5,4 @@
 [submodule "congestion-server"]
 	path = congestion-server
 	url = https://github.com/INU-IDLE/congestion-server.git
-    branch = develop
+    branch = main
