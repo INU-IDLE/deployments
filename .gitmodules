@@ -1,0 +1,8 @@
+[submodule "backend-server"]
+    path = backend-server
+    url = https://github.com/INU-IDLE/backend-server.git
+    branch = develop
+[submodule "congestion-server"]
+	path = congestion-server
+	url = https://github.com/INU-IDLE/congestion-server.git
+    branch = main
