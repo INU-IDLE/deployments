@@ -1,0 +1,48 @@
+# Ignore Maven and Gradle build files
+target/
+*.jar
+*.war
+*.ear
+*.iml
+.gradle/
+build/
+
+# Ignore Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore node_modules (if applicable)
+node_modules/
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
