@@ -30,6 +30,8 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+      redis:
+        condition: service_started
     networks:
       - rushcutter-network
 
@@ -54,6 +56,14 @@ services:
       - "80:80"
     depends_on:
       - backend
+    networks:
+      - rushcutter-network
+
+  redis:
+    image: redis:alpine
+    restart: always
+    ports:
+      - "6379:6379"
     networks:
       - rushcutter-network
 
